@@ -1,0 +1,2 @@
+# SPENT
+Expense tracking shortcut
