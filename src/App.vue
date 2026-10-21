@@ -18,7 +18,7 @@ import { ref, onMounted } from 'vue'
 
 interface transactionRecordItem {
   id: number
-  date: string
+  dateTime: string
   category: string
   amount: number
 }
@@ -29,19 +29,19 @@ const getTransactionSummary = async () => {
   const response = [
     {
       id: 1,
-      date: '2026-01-01',
+      dateTime: '2026-01-01',
       category: 'Food',
       amount: 100,
     },
     {
       id: 2,
-      date: '2026-01-02',
+      dateTime: '2026-01-02',
       category: 'Transport',
       amount: 200,
     },
     {
       id: 3,
-      date: '2026-01-03',
+      dateTime: '2026-01-03',
       category: 'Entertainment',
       amount: 1590,
     },
